@@ -20,10 +20,7 @@ readonly APP_NAME="snipeit"
 readonly APP_PATH="/var/www/html/$APP_NAME"
 readonly APP_LOG="/var/log/snipeit-install.log"
 readonly COMPOSER_PATH="/home/$APP_USER"
-readonly GIT_REPO="https://github.com/Blessed-Shammah/asset-management-system.git"
-
-# https://github.com/Blessed-Shammah/asset-file-management-system.git
-# https://github.com/Blessed-Shammah/asset-management-system.git
+readonly GIT_REPO="https://github.com/hmuholo/Asset-Manager.git"
 
 # Detect OS
 if [[ -f /etc/lsb-release ]]; then
